@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A91FEB651EA7D97600A33E6A /* DayItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91FEB631EA7D97600A33E6A /* DayItem+CoreDataClass.swift */; };
+		A91FEB661EA7D97600A33E6A /* DayItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91FEB641EA7D97600A33E6A /* DayItem+CoreDataProperties.swift */; };
+		A97928D61EA45BB000E8E648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97928D51EA45BB000E8E648 /* AppDelegate.swift */; };
+		A97928D81EA45BB000E8E648 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97928D71EA45BB000E8E648 /* ViewController.swift */; };
+		A97928DB1EA45BB000E8E648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97928D91EA45BB000E8E648 /* Main.storyboard */; };
+		A97928DE1EA45BB000E8E648 /* healthproject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A97928DC1EA45BB000E8E648 /* healthproject.xcdatamodeld */; };
+		A97928E01EA45BB000E8E648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97928DF1EA45BB000E8E648 /* Assets.xcassets */; };
+		A97928E31EA45BB000E8E648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97928E11EA45BB000E8E648 /* LaunchScreen.storyboard */; };
+		A97928EB1EA45C8200E8E648 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97928EA1EA45C8200E8E648 /* StoreViewController.swift */; };
+		A97928ED1EA45E0D00E8E648 /* DaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97928EC1EA45E0D00E8E648 /* DaysViewController.swift */; };
+		A97928EF1EA45EA000E8E648 /* DayTotalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97928EE1EA45EA000E8E648 /* DayTotalViewController.swift */; };
+		A97928F11EA460AC00E8E648 /* DayDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97928F01EA460AC00E8E648 /* DayDetailsViewController.swift */; };
+		A97928F31EA4615600E8E648 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97928F21EA4615600E8E648 /* FoodDetailViewController.swift */; };
+		A97928F51EA461E700E8E648 /* FoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97928F41EA461E700E8E648 /* FoodListViewController.swift */; };
+		A97928F71EA463C300E8E648 /* NewFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97928F61EA463C300E8E648 /* NewFoodViewController.swift */; };
+		A97928F91EA464A200E8E648 /* FoodSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97928F81EA464A200E8E648 /* FoodSearchViewController.swift */; };
+		A97928FB1EA465D400E8E648 /* NewDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97928FA1EA465D400E8E648 /* NewDayViewController.swift */; };
+		A97928FD1EA4679E00E8E648 /* FoodPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97928FC1EA4679E00E8E648 /* FoodPickerViewController.swift */; };
+		A98D3D9A1EA7F01800720C3E /* FoodItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98D3D981EA7F01800720C3E /* FoodItem+CoreDataClass.swift */; };
+		A98D3D9B1EA7F01800720C3E /* FoodItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98D3D991EA7F01800720C3E /* FoodItem+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A91FEB631EA7D97600A33E6A /* DayItem+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DayItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A91FEB641EA7D97600A33E6A /* DayItem+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DayItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A97928D21EA45BB000E8E648 /* healthproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = healthproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97928D51EA45BB000E8E648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A97928D71EA45BB000E8E648 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A97928DA1EA45BB000E8E648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A97928DD1EA45BB000E8E648 /* healthproject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = healthproject.xcdatamodel; sourceTree = "<group>"; };
+		A97928DF1EA45BB000E8E648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A97928E21EA45BB000E8E648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A97928E41EA45BB000E8E648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97928EA1EA45C8200E8E648 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		A97928EC1EA45E0D00E8E648 /* DaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysViewController.swift; sourceTree = "<group>"; };
+		A97928EE1EA45EA000E8E648 /* DayTotalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayTotalViewController.swift; sourceTree = "<group>"; };
+		A97928F01EA460AC00E8E648 /* DayDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayDetailsViewController.swift; sourceTree = "<group>"; };
+		A97928F21EA4615600E8E648 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		A97928F41EA461E700E8E648 /* FoodListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodListViewController.swift; sourceTree = "<group>"; };
+		A97928F61EA463C300E8E648 /* NewFoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFoodViewController.swift; sourceTree = "<group>"; };
+		A97928F81EA464A200E8E648 /* FoodSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodSearchViewController.swift; sourceTree = "<group>"; };
+		A97928FA1EA465D400E8E648 /* NewDayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDayViewController.swift; sourceTree = "<group>"; };
+		A97928FC1EA4679E00E8E648 /* FoodPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodPickerViewController.swift; sourceTree = "<group>"; };
+		A98D3D981EA7F01800720C3E /* FoodItem+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FoodItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A98D3D991EA7F01800720C3E /* FoodItem+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FoodItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A97928CF1EA45BB000E8E648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A97928C91EA45BB000E8E648 = {
+			isa = PBXGroup;
+			children = (
+				A97928D41EA45BB000E8E648 /* healthproject */,
+				A97928D31EA45BB000E8E648 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A97928D31EA45BB000E8E648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A97928D21EA45BB000E8E648 /* healthproject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A97928D41EA45BB000E8E648 /* healthproject */ = {
+			isa = PBXGroup;
+			children = (
+				A91FEB631EA7D97600A33E6A /* DayItem+CoreDataClass.swift */,
+				A91FEB641EA7D97600A33E6A /* DayItem+CoreDataProperties.swift */,
+				A98D3D981EA7F01800720C3E /* FoodItem+CoreDataClass.swift */,
+				A98D3D991EA7F01800720C3E /* FoodItem+CoreDataProperties.swift */,
+				A97928D51EA45BB000E8E648 /* AppDelegate.swift */,
+				A97928D71EA45BB000E8E648 /* ViewController.swift */,
+				A97928D91EA45BB000E8E648 /* Main.storyboard */,
+				A97928FC1EA4679E00E8E648 /* FoodPickerViewController.swift */,
+				A97928FA1EA465D400E8E648 /* NewDayViewController.swift */,
+				A97928F81EA464A200E8E648 /* FoodSearchViewController.swift */,
+				A97928F61EA463C300E8E648 /* NewFoodViewController.swift */,
+				A97928F41EA461E700E8E648 /* FoodListViewController.swift */,
+				A97928F21EA4615600E8E648 /* FoodDetailViewController.swift */,
+				A97928F01EA460AC00E8E648 /* DayDetailsViewController.swift */,
+				A97928EE1EA45EA000E8E648 /* DayTotalViewController.swift */,
+				A97928EC1EA45E0D00E8E648 /* DaysViewController.swift */,
+				A97928EA1EA45C8200E8E648 /* StoreViewController.swift */,
+				A97928DF1EA45BB000E8E648 /* Assets.xcassets */,
+				A97928E11EA45BB000E8E648 /* LaunchScreen.storyboard */,
+				A97928E41EA45BB000E8E648 /* Info.plist */,
+				A97928DC1EA45BB000E8E648 /* healthproject.xcdatamodeld */,
+			);
+			path = healthproject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A97928D11EA45BB000E8E648 /* healthproject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97928E71EA45BB000E8E648 /* Build configuration list for PBXNativeTarget "healthproject" */;
+			buildPhases = (
+				A97928CE1EA45BB000E8E648 /* Sources */,
+				A97928CF1EA45BB000E8E648 /* Frameworks */,
+				A97928D01EA45BB000E8E648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = healthproject;
+			productName = healthproject;
+			productReference = A97928D21EA45BB000E8E648 /* healthproject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A97928CA1EA45BB000E8E648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ASU;
+				TargetAttributes = {
+					A97928D11EA45BB000E8E648 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A97928CD1EA45BB000E8E648 /* Build configuration list for PBXProject "healthproject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A97928C91EA45BB000E8E648;
+			productRefGroup = A97928D31EA45BB000E8E648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A97928D11EA45BB000E8E648 /* healthproject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A97928D01EA45BB000E8E648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97928E31EA45BB000E8E648 /* LaunchScreen.storyboard in Resources */,
+				A97928E01EA45BB000E8E648 /* Assets.xcassets in Resources */,
+				A97928DB1EA45BB000E8E648 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A97928CE1EA45BB000E8E648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98D3D9B1EA7F01800720C3E /* FoodItem+CoreDataProperties.swift in Sources */,
+				A97928FB1EA465D400E8E648 /* NewDayViewController.swift in Sources */,
+				A97928EB1EA45C8200E8E648 /* StoreViewController.swift in Sources */,
+				A91FEB661EA7D97600A33E6A /* DayItem+CoreDataProperties.swift in Sources */,
+				A97928F11EA460AC00E8E648 /* DayDetailsViewController.swift in Sources */,
+				A97928D81EA45BB000E8E648 /* ViewController.swift in Sources */,
+				A97928F31EA4615600E8E648 /* FoodDetailViewController.swift in Sources */,
+				A91FEB651EA7D97600A33E6A /* DayItem+CoreDataClass.swift in Sources */,
+				A97928D61EA45BB000E8E648 /* AppDelegate.swift in Sources */,
+				A97928DE1EA45BB000E8E648 /* healthproject.xcdatamodeld in Sources */,
+				A97928F51EA461E700E8E648 /* FoodListViewController.swift in Sources */,
+				A97928F91EA464A200E8E648 /* FoodSearchViewController.swift in Sources */,
+				A97928F71EA463C300E8E648 /* NewFoodViewController.swift in Sources */,
+				A97928EF1EA45EA000E8E648 /* DayTotalViewController.swift in Sources */,
+				A98D3D9A1EA7F01800720C3E /* FoodItem+CoreDataClass.swift in Sources */,
+				A97928ED1EA45E0D00E8E648 /* DaysViewController.swift in Sources */,
+				A97928FD1EA4679E00E8E648 /* FoodPickerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A97928D91EA45BB000E8E648 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A97928DA1EA45BB000E8E648 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A97928E11EA45BB000E8E648 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A97928E21EA45BB000E8E648 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A97928E51EA45BB000E8E648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A97928E61EA45BB000E8E648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A97928E81EA45BB000E8E648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = healthproject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asu.healthproject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A97928E91EA45BB000E8E648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = healthproject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asu.healthproject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A97928CD1EA45BB000E8E648 /* Build configuration list for PBXProject "healthproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97928E51EA45BB000E8E648 /* Debug */,
+				A97928E61EA45BB000E8E648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97928E71EA45BB000E8E648 /* Build configuration list for PBXNativeTarget "healthproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97928E81EA45BB000E8E648 /* Debug */,
+				A97928E91EA45BB000E8E648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A97928DC1EA45BB000E8E648 /* healthproject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A97928DD1EA45BB000E8E648 /* healthproject.xcdatamodel */,
+			);
+			currentVersion = A97928DD1EA45BB000E8E648 /* healthproject.xcdatamodel */;
+			path = healthproject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A97928CA1EA45BB000E8E648 /* Project object */;
+}
